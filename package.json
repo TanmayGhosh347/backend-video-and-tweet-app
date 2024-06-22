@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
+  "type": "module",
   "keywords": [
     "javaScript",
     "express",
@@ -12,5 +13,8 @@
   ],
   "author": "tanmay ghosh",
   "license": "ISC",
-  "description": "a fullstack backend project made in node js"
+  "description": "a fullstack backend project made in node js",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
